@@ -33,6 +33,9 @@ android {
 
 dependencies {
     implementation(libs.recyclerview)
+    implementation(libs.room.runtime)
+    annotationProcessor(libs.room.compiler)
+
     implementation(libs.appcompat)
     implementation(libs.material)
     testImplementation(libs.junit)
