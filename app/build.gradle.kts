@@ -32,7 +32,7 @@ android {
 }
 
 dependencies {
-
+    implementation(libs.recyclerview)
     implementation(libs.appcompat)
     implementation(libs.material)
     testImplementation(libs.junit)
