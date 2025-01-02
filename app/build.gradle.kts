@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.matzy_byte.gocontact_android"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.matzy_byte.gocontact_android"
@@ -34,6 +34,7 @@ android {
 dependencies {
     implementation(libs.recyclerview)
     implementation(libs.room.runtime)
+    implementation((libs.work))
     annotationProcessor(libs.room.compiler)
 
     implementation(libs.appcompat)

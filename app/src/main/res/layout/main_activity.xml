@@ -28,7 +28,13 @@
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/contact_list"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="632dp" />
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Close" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
